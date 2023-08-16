@@ -12,10 +12,10 @@ class CdkIotStack(Stack):
         super().__init__(scope, construct_id, **kwargs)
         
         # 今回は簡単のため、証明書をCLIで作成している
-        cert_arn = 'arn:aws:iot:ap-northeast-1:647271430098:cert/4a50ae8f9d9284eb59186612cab913312b473a2dc1f7d6aad9b951b82fc4f275'
+        cert_arn = 'xxxxxxx'
         
         region = 'ap-northeast-1'
-        account_id = '647271430098'
+        account_id = 'xxxxxxx'
         
         topic_name = 'test/topic'
         
